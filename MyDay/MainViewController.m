@@ -254,8 +254,7 @@ static float const CellDeletedAnimationDuration = 0.4;
                                      completion:nil];
             } else {
                 UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"ERROR", nil)
-                                                                                         message:NSLocalizedString(@"Could not open iMessage", nil)
-                                                                                  preferredStyle:UIAlertControllerStyleAlert];
+                                                                                         message:NSLocalizedString(@"Could not open iMessage", nil)];
                 [weakSelf presentViewController:alertController
                                        animated:YES
                                      completion:nil];
@@ -269,8 +268,7 @@ static float const CellDeletedAnimationDuration = 0.4;
                                      completion:nil];
             } else {
                 UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"ERROR", nil)
-                                                                                         message:NSLocalizedString(@"Could not open Mail", nil)
-                                                                                  preferredStyle:UIAlertControllerStyleAlert];
+                                                                                         message:NSLocalizedString(@"Could not open Mail", nil)];
                 [weakSelf presentViewController:alertController
                                        animated:YES
                                      completion:nil];
